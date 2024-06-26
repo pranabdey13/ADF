@@ -1,0 +1,18 @@
+{
+	"name": "LS_AzureSQLDatabase2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "pranabserver1.database.windows.net",
+			"database": "Pranabdatabase2",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"hostNameInCertificate": "",
+			"authenticationType": "SQL",
+			"userName": "sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdFQUNBQzc4LURDOUItNEM1Ni04MURGLTQyQTQ0QkFBMDk2M18wZWFmYmFhMC1hNjExLTRlYmMtODdmOC00YTc0YzhmZTE5NWIiDQp9"
+		}
+	}
+}

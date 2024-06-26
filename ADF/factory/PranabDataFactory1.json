@@ -1,0 +1,9 @@
+{
+	"name": "PranabDataFactory1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b45e0ea6-2cc6-4178-8380-500195158e97",
+		"tenantId": "cf07090c-2d7c-4ddd-9e0a-203519f00861"
+	}
+}

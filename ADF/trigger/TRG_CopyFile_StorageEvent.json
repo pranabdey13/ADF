@@ -1,0 +1,27 @@
+{
+	"name": "TRG_CopyFile_StorageEvent",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "2 PL_Copy_DynamicFile",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"FileName": "@triggerBody().filename"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/pranabcontainer1/blobs/Source",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/f65eabe0-cc44-4770-b673-10b958cc6de5/resourceGroups/PranabResourceGroup1/providers/Microsoft.Storage/storageAccounts/pranabstorageaccount1",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
