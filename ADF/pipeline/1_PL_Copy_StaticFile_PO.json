@@ -1,6 +1,7 @@
 {
 	"name": "1_PL_Copy_StaticFile_PO",
 	"properties": {
+		"description": "This pipeline copies a static file",
 		"activities": [
 			{
 				"name": "Copy PO",
