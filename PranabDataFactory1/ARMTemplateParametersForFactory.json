@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "PranabDataFactory1"
+		},
+		"LS_ADB_accessToken": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQLDatabase1_password": {
+			"value": ""
+		},
+		"LS_AzureSQLDatabase2_password": {
+			"value": ""
+		},
+		"LS_ADB_properties_typeProperties_existingClusterId": {
+			"value": "0721-170736-4pme3sll"
+		},
+		"LS_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://pranabstorageaccount1.dfs.core.windows.net/"
+		},
+		"LS_AzureSQLDatabase1_properties_typeProperties_server": {
+			"value": "pranabserver1.database.windows.net"
+		},
+		"LS_AzureSQLDatabase1_properties_typeProperties_database": {
+			"value": "PranabDatabase1"
+		},
+		"LS_AzureSQLDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"LS_AzureSQLDatabase2_properties_typeProperties_server": {
+			"value": "pranabserver1.database.windows.net"
+		},
+		"LS_AzureSQLDatabase2_properties_typeProperties_database": {
+			"value": "Pranabdatabase2"
+		},
+		"LS_AzureSQLDatabase2_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"TRG_CopyFile_StorageEvent_properties_2 PL_Copy_DynamicFile_parameters_FileName": {
+			"value": "@triggerBody().filename"
+		},
+		"TRG_CopyFile_StorageEvent_properties_typeProperties_scope": {
+			"value": "/subscriptions/f65eabe0-cc44-4770-b673-10b958cc6de5/resourceGroups/PranabResourceGroup1/providers/Microsoft.Storage/storageAccounts/pranabstorageaccount1"
+		}
+	}
+}
